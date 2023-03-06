@@ -1,0 +1,13 @@
+body{
+    color: #2E2F42;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+/* header */
