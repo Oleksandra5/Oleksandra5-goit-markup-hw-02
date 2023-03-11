@@ -1,11 +1,14 @@
 body{
     color: #2E2F42;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 
 }
 *{margin: 0;}
 .link{
     text-decoration: none;
+    cursor: pointer;
+
 }
 .list{
     list-style: none;
@@ -16,8 +19,36 @@ font-family: 'Roboto', sans-serif;
     line-height: 2;
     letter-spacing: 0.02em;
     color: #434455;
+
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.bottom-text{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+}
+.top-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+}
+.title-text{
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
 }
 /* ------------------------------------------header------------------------- */
+.header-conteiner{
+    background-color: bisque;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .header-link{
     font-weight: 500;
     font-size: 16px;
@@ -51,16 +82,10 @@ font-family: 'Roboto', sans-serif;
 }
 /* ---------------------------------scrolls------------------ */
     .section-scrolls{
-        position: absolute;
-            width: 1440px;
-            height: 600px;
-            left: 0px;
-            top: 72px;
-            background: #2E2F42;
+    background-color: #2E2F42;
+           
     }
     .scrolls-nome{
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 5;
@@ -68,6 +93,9 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         
+    }
+    .order-button{
+        i
     }
 
         
