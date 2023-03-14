@@ -134,19 +134,27 @@ color: #434455;
         letter-spacing: 0.04em;
         color: #4d5ae5;
         cursor: pointer;
+       background-color: #F4F4FD;
 }
-.filter-btn:hover{
+
+.filter-btn:is(:hover,:focus){
     color: #FFFFFF;
     border-color: #404bbf;
 
 }
-.project-card-text{
+
+/* -----project-card----- */
+.project-top-text{
+    color: #2E2F42;
+    
+
+}
+.project-bottom-text{
+    color: #434455;
     font-family: 'Roboto'; 
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455; 
 }
-/* -----project-card----- */
