@@ -81,7 +81,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-   }     
+   }  
+.header-address{
+    font-style: normal;
+}
 /* ---------------------------------scrolls------------------ */
     .section-scrolls{
     background-color: #2E2F42;
@@ -132,14 +135,15 @@ color: #434455;
         font-size: 16px;
         line-height: 1.5;    
         letter-spacing: 0.04em;
-        color: #4d5ae5;
+        color: #4D5AE5;
         cursor: pointer;
        background-color: #F4F4FD;
-}
-
+    }
 .filter-btn:is(:hover,:focus){
+    background: #F4F4FD;
+    background: #404BBF;
+    color:#4D5AE5;
     color: #FFFFFF;
-    border-color: #404bbf;
 
 }
 
