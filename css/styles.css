@@ -8,6 +8,7 @@ body{
 .link{
     text-decoration: none;
     cursor: pointer;
+    color: #434455;
 
 }
 .list{
@@ -56,7 +57,8 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-link:hover{
+.header-link:is(:hover,:focus){
+    color: #404bbf;
     color: #404bbf;
 }
 .logo-studio{
@@ -72,19 +74,25 @@ body{
         text-transform: uppercase;
         color: #4D5AE5;
         }
-   .header-mail,
+   .header-mail, 
    .header-tel{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
    }  
 .header-address{
     font-style: normal;
 }
+   .header-mail,
+   .header-tel:is(:hover, :focus){
+    color: #404bbf;
+    color: #404bbf;
+   }
+
 /* ---------------------------------scrolls------------------ */
     .section-scrolls{
     background-color: #2E2F42;
