@@ -71,7 +71,17 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-}
+        }
+   .header-mail,
+   .header-tel{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+   }     
 /* ---------------------------------scrolls------------------ */
     .section-scrolls{
     background-color: #2E2F42;
@@ -80,14 +90,23 @@ body{
     .scrolls-nome{
         font-weight: 700;
         font-size: 56px;
-        line-height: 5;
+        line-height: 1.07;
         text-align: center;
-        letter-spacing: 0.02em;
         color: #FFFFFF;
         
     }
     .order-button{
-        i
+        background-color:  #4D5AE5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
     }
 
         
@@ -95,3 +114,29 @@ body{
 /* ---------------------------- section 2 --------------------------- */
 /* ---------------------------- section 3 --------------------------- */
 /* -----------------------------footer------------------------------- */
+/* -------------------------------portfolio--------------------- */
+.filter-btn{
+    font-family: 'Roboto', sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;    
+        letter-spacing: 0.04em;
+        color: #4d5ae5
+        cursor: pointer;
+}
+.filter-btn:hover{
+    color: #FFFFFF;
+    border-color: #404bbf;
+
+}
+.project-cart-text{
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: ; 
+}
+/* -----project-cart----- */
