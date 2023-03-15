@@ -58,7 +58,7 @@ body{
     color: #2E2F42;
 }
 .header-link:is(:hover,:focus){
-    color: #404bbf;
+
     color: #404bbf;
 }
 .logo-studio{
@@ -74,9 +74,9 @@ body{
         text-transform: uppercase;
         color: #4D5AE5;
         }
-   .header-mail, 
+
    .header-tel{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -87,14 +87,13 @@ body{
 .header-address{
     font-style: normal;
 }
-   .header-mail,
    .header-tel:is(:hover, :focus){
     color: #404bbf;
     color: #404bbf;
    }
 
 /* ---------------------------------scrolls------------------ */
-    .section-scrolls{
+    .scrolls{
     background-color: #2E2F42;
            
     }
