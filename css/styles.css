@@ -42,8 +42,11 @@ body{
 }
 .title-text{
     font-size: 36px;
-    line-height: 1.33;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 /* ------------------------------------------header------------------------- */
 .header-conteiner{
@@ -104,6 +107,7 @@ body{
         line-height: 1.07;
         text-align: center;
         color: #FFFFFF;
+        letter-spacing: 0.02em;
         
     }
     .order-button{
@@ -119,17 +123,27 @@ body{
         color: #FFFFFF;
         cursor: pointer;
     }
+.order-button:is(:hover, :focus){
+        color: #404bbf;
+        color: #404bbf;
+}
 
         
 /* ---------------------------- section 1 --------------------------- */
 .sectio-about-list{
     background-color:#FFFFFF;
-    
+
 }
 /* ---------------------------- section 2 --------------------------- */
 
 /* ---------------------------- section 3 --------------------------- */
+.section-staff{
+    background-color: #F4F4FD;
+}
+.section-staff-list{
+    background-color: #FFFFFF;
 
+}
 /* -----------------------------footer------------------------------- */
 .footer{
     background-color: #2E2F42;
