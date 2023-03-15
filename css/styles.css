@@ -138,10 +138,14 @@ body{
 /* ---------------------------- section 3 --------------------------- */
 .section-staff{
     background-color: #F4F4FD;
+    
 }
 .section-staff-list{
     background-color: #FFFFFF;
 
+}
+.staff-li{
+    background-color: #FFFFFF;
 }
 /* -----------------------------footer------------------------------- */
 .footer{
