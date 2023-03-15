@@ -30,14 +30,15 @@ body{
 }
 .bottom-text{
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .top-text{
     font-weight: 500;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .title-text{
     font-size: 36px;
@@ -121,8 +122,14 @@ body{
 
         
 /* ---------------------------- section 1 --------------------------- */
+.sectio-about-list{
+    background-color:#FFFFFF;
+    
+}
 /* ---------------------------- section 2 --------------------------- */
+
 /* ---------------------------- section 3 --------------------------- */
+
 /* -----------------------------footer------------------------------- */
 .footer{
     background-color: #2E2F42;
