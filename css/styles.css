@@ -136,7 +136,12 @@ body{
     background-color:#FFFFFF;
 }
 /* ---------------------------- section 2 --------------------------- */
-
+.section-information{
+    background-color: #F4F4FD;
+}
+.information-li{
+    
+}
 /* ---------------------------- section 3 --------------------------- */
 .section-staff{
     background-color: #F4F4FD;
