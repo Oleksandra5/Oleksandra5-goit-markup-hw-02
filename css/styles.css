@@ -97,7 +97,7 @@ body{
     color: #404bbf;
    }
 
-/* ---------------------------------scrolls------------------ */
+/* ---------------------------------section 1------------------ */
     .scrolls{
     background-color: #2E2F42;
     }
@@ -127,7 +127,7 @@ body{
         background-color: #404BBF;
         background-color: #404BBF;
        } 
-/* ---------------------------- section 1 --------------------------- */
+/* ---------------------------- section 2 --------------------------- */
 .sectio-about{
         background-color: #F4F4FD;
     }
@@ -135,14 +135,22 @@ body{
 .sectio-about-list{
     background-color:#FFFFFF;
 }
-/* ---------------------------- section 2 --------------------------- */
+/* ---------------------------- section 3 --------------------------- */
 .section-information{
     background-color: #F4F4FD;
 }
 .information-li{
-    
+    background-color: #FFFFFF;
 }
-/* ---------------------------- section 3 --------------------------- */
+.section-information-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+/* ---------------------------- section 4 --------------------------- */
 .section-staff{
     background-color: #F4F4FD;
     
@@ -163,6 +171,9 @@ body{
 }
 .footer-text{
     color: #E7E9FC;
+}
+.bottom-text{
+   color: #F4F4FD;
 }
 
 /* -------------------------------portfolio--------------------- */
