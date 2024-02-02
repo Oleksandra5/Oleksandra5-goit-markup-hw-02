@@ -28,7 +28,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
 .top-text{
     font-weight: 500;
@@ -126,14 +126,15 @@ body{
 /* ---------------------------- section 2 --------------------------- */
 .sectio-about{
         background-color: #F4F4FD;
-    }
+        }
 
 .sectio-about-list{
-    background-color:#FFFFFF;
-}
-.sesectio-about-bottom{
-    color:#434455;
-} 
+        background-color:#FFFFFF;
+        }
+                #FFFFFF
+.sectio-about-bottom{
+            color: #434455;
+        } 
 /* ---------------------------- section 3 --------------------------- */
 .section-information{
     background-color: #F4F4FD;
@@ -171,10 +172,6 @@ body{
 .footer-text{
     color: #E7E9FC;
 }
-.bottom-text{
-   color: #F4F4FD;
-}
-
 /* -------------------------------portfolio--------------------- */
 .filter-btn{
     font-family: 'Roboto', sans-serif; 
