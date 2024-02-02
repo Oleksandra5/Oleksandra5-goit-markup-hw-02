@@ -28,6 +28,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 .top-text{
     font-weight: 500;
@@ -131,7 +132,7 @@ body{
     background-color:#FFFFFF;
 }
 .sesectio-about-bottom{
-    color: #434455;
+    color:#434455;
 } 
 /* ---------------------------- section 3 --------------------------- */
 .section-information{
