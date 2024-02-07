@@ -6,7 +6,7 @@ body{
 
 }
 *{margin: 0;}
-.link{
+a{
     text-decoration: none;
     cursor: pointer;
     color: #434455;
@@ -46,7 +46,7 @@ h2{
     color: #2E2F42;
 }
 
-.header-conteiner{
+header{
     background-color: bisque;
     
 }
