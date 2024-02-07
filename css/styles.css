@@ -5,13 +5,16 @@ body{
     background-color: #FFFFFF;
 
 }
+*{margin: 0;}
+
+/*header*/
 a{
     text-decoration: none;
     cursor: pointer;
     color: #434455;
 
 }
-.list{
+ul{
     list-style: none;
     font-family: 'Roboto';
     font-style: normal;
